@@ -28,6 +28,7 @@ The scenario covers API Tests for Create, View Orders, domain field values and v
 -Execute the Project: dotnet test ./EverlightTestAutomation.csproj
 ```
 
-## Allure Report is generated and results are stored in the Project\Bin\Debug Folder which can be hosted as a Node.js App
+## Allure Report
+Report is generated as json file and results are stored in the Project\Bin\Debug Folder which can be hosted as a Node.js App
 
     
