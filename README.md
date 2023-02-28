@@ -4,19 +4,19 @@
 UI and API Tests are automated to cover the following scenarios with Selenium and RestSharp (C#)
 
 ## Feature: Everlight UI Automation Tests
-		The scenario covers UI Tests for Create and View Orders
+The scenario covers UI Tests for Create and View Orders
 
-Scenario: Create, View and Delete Orders
-Scenario: View existing orders and delete one of them
-Scenario: View existing orders list, teleradiology several statuses, Modality and OrgCode  
-Scenario: Create Order - Field Validations
+- Scenario: Create, View and Delete Orders
+- Scenario: View existing orders and delete one of them
+- Scenario: View existing orders list, teleradiology several statuses, Modality and OrgCode  
+- Scenario: Create Order - Field Validations
 
 ## Feature: Everlight API Automation Tests
-		The scenario covers API Tests for Create, View Orders, domain field values and validations 
+The scenario covers API Tests for Create, View Orders, domain field values and validations 
 
-Scenario: View Orders, Client and Modality and verify schema responses for all APIs
-Scenario: Create, View and Delete Order 
-Scenario Outline: Create Order validate api errors
+- Scenario: View Orders, Client and Modality and verify schema responses for all APIs
+- Scenario: Create, View and Delete Order 
+- Scenario Outline: Create Order validate api errors
 
 ## Tools: -Visual Studio -C#.Net -Libraries: RestSharp, Specflow, Allure Reports
 
