@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "accessionNumber": {
+        "type": "string"
+      },
+      "orgCode": {
+        "type": "string"
+      },
+      "siteName": {
+        "type": "string"
+      },
+      "patientMrn": {
+        "type": "string"
+      },
+      "patientName": {
+        "type": "string"
+      },
+      "modality": {
+        "type": "string"
+      },
+      "studyDateTime": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "accessionNumber",
+      "orgCode",
+      "siteName",
+      "patientMrn",
+      "patientName",
+      "modality",
+      "studyDateTime",
+      "status",
+      "createdAt",
+      "updatedAt"
+    ]
+  }
+}
